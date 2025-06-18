@@ -2,7 +2,6 @@
 
 import React, { useState} from 'react';
 import Image from 'next/image';
-import { motion } from 'motion/react';
 import placeholderImage1 from '../../public/assets/proj5.png';
 import placeholderImage2 from '../../public/assets/proj6.png';
 import placeholderImage3 from '../../public/assets/proj7.png';
