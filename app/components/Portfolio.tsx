@@ -2,7 +2,7 @@
 
 import React, { useState} from 'react';
 import Image from 'next/image';
-import placeholderImage1 from '../../public/assets/proj1.png';
+import placeholderImage1 from '../../public/assets/proj1-ver2.png';
 import placeholderImage2 from '../../public/assets/proj2.png';
 import placeholderImage3 from '../../public/assets/proj3.png';
 
