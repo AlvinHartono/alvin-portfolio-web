@@ -1,6 +1,3 @@
-import project1 from '../../public/assets/proj5.png';
-import Image from 'next/image';
-
 export const About = () => {
   return (
     <section id='about' className='text-white p-8 bg-black'>
@@ -42,18 +39,11 @@ export const About = () => {
         <div className='border border-white/20 rounded-lg p-6'>
           <h3 className='text-2xl font-bold mb-2'>02. Expertise</h3>
           <p className='text-white/50'>
-            I build modern mobile applications, with a focus on creating
+            I build mobile applications, with a focus on creating
             intuitive user interfaces and robust functionality. My skills cover
             the key aspects of mobile development, from concept to deployment.
           </p>
-          <div className='mt-4 relative border border-white/20 rounded-lg p-4 h-[220px] overflow-hidden'>
-            <Image
-              src={project1}
-              alt='project 1'
-              objectFit='cover'
-              className='rounded-lg'
-            />
-          </div>
+          
         </div>
         <div className='border  border-white/20 rounded-lg p-6'>
           <h3 className='text-2xl font-bold mb-2'>03. Skills</h3>
